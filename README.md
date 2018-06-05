@@ -1,24 +1,29 @@
 # All about Part of Speech (POS) tags
 
+
 **Understanding of POS tags and build a POS tagger from scratch**
 
 This repository is basically provides you basic understanding on POS tags. I have tried to build the custom POS tagger using Treebank dataset.
 
+---
+
 ## Workshop Outline
 
 There are main three sections here.
-
+---
     Section 1. Introduction to Part of Speech tags
     
-              1.1 What is Part of Speech tags?
-              
-              1.2 What are the various types of the Part of Speech tags?
+              1.1 What is Parts of Speech?
 
-              1.3 Which applications are using POS tagging?
+              1.2 What is Parts of Speech tagging?
 
-              1.4 When can we use POS tags?
+              1.3 What is Part of Speech tagger?
 
+              1.4 What are the various types of the Part of Speech tags?
 
+              1.5 Which applications are using POS tagging?
+
+---
        
     Section 2. Generate Part of Speech tags using various python libraries
        
@@ -28,30 +33,48 @@ There are main three sections here.
        
                2.3 Generating POS tags using Spacy library
     
-    
-    
+---    
+
     Section 3. Build our own POS tagger form scratch
        
                3.1 Import dependencies
-       
+
                3.2 Explore dataset
-       
-               3.3 Generate features
-       
-               3.4 Train model
-       
-               3.5 Measure Accuracy
-       
-               3.6 Generate POS tags for given sentence
+
+                    3.2.1 Explore Brown Corpus
+
+                    3.2.2 Explore Penn-Treebank Corpus
+
+                3.3 Generate features
+
+                3.4 Transform Dataset
+
+                3.5 Build training and testing dataset       
+
+                3.6 Train model
+
+                3.7 Measure Accuracy
+
+                3.8 Generate POS tags for given sentence
        
 
 ## Installation Instructions
 
 ### For section 1:
 
+* No dependency required for this section.
 
 ### For section 2: 
-Polyglot library
+
+There are three dependencies are required.
+---
+1. Polyglot library
+
+2. Stanford POS tagger and Py-CoreNLP
+
+3. Spacy POS tagger
+
+---
 
     Step 1: sudo apt-get update
     Step 2: sudo apt-get install python-pyicu
@@ -78,14 +101,19 @@ Spacy POS tagger
 
 ### For section 3: 
 
+There are two dependencies are required.
+---
+1. NLTK
 
-NLTK
+2. Scikit-Learn
+---
 
-
-Scikit-Learn
 
 ## Usage
 
+* For Session 1: Use `Introduction_to_POS` ipython notebook
 
+* For Session 2: Use `POS_tagger_Demo` ipython notebook
 
+* For Session 3: Use `POS_from_scratch` ipython notebook
 
