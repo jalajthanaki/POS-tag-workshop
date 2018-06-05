@@ -1,13 +1,15 @@
-# All about Part of Speech (POS) tags
+#### All about Part of Speech (POS) tags
 
 Understanding of POS tags and build a POS tagger from scratch
+
+<img src="https://raw.githubusercontent.com/jalajthanaki/POS-tag-workshop/master/imgs/Image_1_1.gif" 
+align="middle" alt="Image_1_1" data-canonical-src="" style="width:70%;height:70%">
 
 ---
 
 ## Source Code
 
 - Download the source code from [here](https://github.com/jalajthanaki/POS-tag-workshop)
-- Instructions for installing dependencies are [here](https://github.com/jalajthanaki/POS-tag-workshop/blob/master/README.md)
 
 ---
 

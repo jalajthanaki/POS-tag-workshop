@@ -10,15 +10,15 @@ There are main three sections here.
 
     Section 1. Introduction to Part of Speech tags
     
-               1.1 What is NLP?
-       
-               1.2 What is Part of Speech tags?
-       
-               1.3 What are the types of the Part of Speech tags?
-       
-               1.4 When can we use POS tags?
-       
-               1.5 Which applications are using POS tagging? 
+              1.1 What is Part of Speech tags?
+              
+              1.2 What are the various types of the Part of Speech tags?
+
+              1.3 Which applications are using POS tagging?
+
+              1.4 When can we use POS tags?
+
+
        
     Section 2. Generate Part of Speech tags using various python libraries
        
@@ -27,6 +27,8 @@ There are main three sections here.
                2.2 Generating POS tags using Stanford CoreNLP 
        
                2.3 Generating POS tags using Spacy library
+    
+    
     
     Section 3. Build our own POS tagger form scratch
        
