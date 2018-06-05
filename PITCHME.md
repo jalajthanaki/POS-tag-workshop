@@ -6,15 +6,15 @@ Understanding of POS tags and build a POS tagger from scratch
 
 ## Source Code
 
-- Download the source code from [here](https://github.com/jalajthanaki/POS_tag_workshop)
-- Instructions for installing dependencies are [here](https://github.com/jalajthanaki/POS_tag_workshop/blob/master/README.md)
+- Download the source code from [here](https://github.com/jalajthanaki/POS-tag-workshop)
+- Instructions for installing dependencies are [here](https://github.com/jalajthanaki/POS-tag-workshop/blob/master/README.md)
 
 ---
 
 ## About me
 
 <div>
-    <img src="https://raw.githubusercontent.com/jalajthanaki/POS_tag_workshop/master/imgs/Social_media_icons/Jalaj_Thanaki.gif" style="width:20%;height:20%;border:0;box-shadow:none;"/>
+    <img src="https://raw.githubusercontent.com/jalajthanaki/POS-tag-workshop/master/imgs/Jalaj_Thanaki.gif" style="width:20%;height:20%;border:0;box-shadow:none;"/>
 </div>
 
 <div style = "font-size:70%;">
