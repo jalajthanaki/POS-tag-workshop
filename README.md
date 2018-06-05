@@ -117,3 +117,7 @@ There are two dependencies are required.
 
 * For Session 3: Use `POS_from_scratch` ipython notebook
 
+## Share this Git-Pitch Presentation 
+
+See the Git-Pitch presentation using [this link](https://gitpitch.com/jalajthanaki/POS-tag-workshop/master?grs=github)
+
