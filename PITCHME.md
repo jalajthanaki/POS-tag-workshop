@@ -3,7 +3,7 @@
 Understanding of POS tags and build a POS tagger from scratch
 
 <img src="https://raw.githubusercontent.com/jalajthanaki/POS-tag-workshop/master/imgs/Image_1_1.gif" 
-align="middle" alt="Image_1_1" data-canonical-src="" style="width:70%;height:70%">
+align="middle" alt="Image_1_1" data-canonical-src="" style="width:40%;height:40%;border:0;box-shadow:none;">
 
 ---
 
