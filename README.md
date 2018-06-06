@@ -86,7 +86,7 @@ There are main three sections here.
 
 * See: How to install python libraries [using conda](https://conda.io/docs/user-guide/tasks/manage-pkgs.html#installing-packages) 
 
-* See: How to install python libraries [using pip](ttps://packaging.python.org/tutorials/installing-packages/#id16)
+* See: How to install python libraries [using pip](https://packaging.python.org/tutorials/installing-packages/#id16)
 
 ### For section 1:
 
