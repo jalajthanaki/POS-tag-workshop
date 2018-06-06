@@ -98,7 +98,7 @@ There are main three sections here.
 There are three dependencies are required.
 ---
 
-2.1. [Polyglot]((http://polyglot.readthedocs.io/en/latest/Installation.html#installing-upgrading-from-the-pypi))
+2.1. [Polyglot](http://polyglot.readthedocs.io/en/latest/Installation.html#installing-upgrading-from-the-pypi)
 
 2.2. [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html#download) and [Py-CoreNLP](https://github.com/smilli/py-corenlp)
 
@@ -106,12 +106,12 @@ There are three dependencies are required.
 
 ---
 
-**Windows OS**
+#### Windows OS
 
 
 **2.1. Polyglot**  
 
-Install using this [link](https://github.com/aboSamoor/polyglot/issues/91)
+For installation refer this [link](https://github.com/aboSamoor/polyglot/issues/91)
 
     Step 1: $ git clone https://github.com/aboSamoor/polyglot.git
     
@@ -156,7 +156,7 @@ __Step 4__: Setup Py-coreNLP
            $ sudo python3 -m spacy download en
 
 
-**Linux OS**
+#### Linux OS
 
 **2.1. Polyglot**  
 
@@ -221,7 +221,7 @@ __Step 4__: Setup Py-coreNLP
                $ sudo python3 -m spacy download en
         
     
-**Mac-OS**
+####  Mac-OS
 
 **2.1. Polyglot**  
 
@@ -284,7 +284,7 @@ There are two dependencies are required.
 ---
 
 
-**For Windows OS**
+#### Windows OS
 
 **3.1 NLTK**
 
@@ -293,7 +293,7 @@ There are two dependencies are required.
 **3.2 Scikit-learn**
 
 
-**For Linux OS**
+#### For Linux OS
 
 
 **3.1 NLTK**
@@ -305,7 +305,7 @@ There are two dependencies are required.
 
 
 
-**On Mac OS**
+#### On Mac OS
 
 **3.1 NLTK**
 
