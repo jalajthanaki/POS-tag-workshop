@@ -59,7 +59,7 @@ There are main three sections here.
        
 ## Dependencies 
 
-* Python 2.7 or Python 3.3+
+* Python 2.6+ or Python 3.3+
 
 * Polyglot
 
@@ -69,12 +69,12 @@ There are main three sections here.
 
 * NLTK
 
-* Scikit-Learn
+* Scikit-learn
 
 
 ## Installation Instructions
 
-### General instruction
+### General instructions
 
 * Set up python package manager [pip](https://pip.pypa.io/en/stable/quickstart/)
   
@@ -84,73 +84,232 @@ There are main three sections here.
   
   * [Install pip for Mac-OS](https://gist.github.com/haircut/14705555d58432a5f01f9188006a04ed) or [Install conda for Mac-OS](https://conda.io/docs/user-guide/install/macos.html)
 
+* See: How to install python libraries [using conda](https://conda.io/docs/user-guide/tasks/manage-pkgs.html#installing-packages) 
+
+* See: How to install python libraries [using pip](ttps://packaging.python.org/tutorials/installing-packages/#id16)
 
 ### For section 1:
 
 * No dependency required for this section.
+
 
 ### For section 2: 
 
 There are three dependencies are required.
 ---
 
-1. Polyglot library
+2.1. [Polyglot]((http://polyglot.readthedocs.io/en/latest/Installation.html#installing-upgrading-from-the-pypi))
 
-2. Stanford POS tagger and Py-CoreNLP
+2.2. [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html#download) and [Py-CoreNLP](https://github.com/smilli/py-corenlp)
 
-3. Spacy POS tagger
+2.3. [Spacy POS tagger](https://spacy.io/usage/)
 
 ---
 
 **Windows OS**
 
 
+**2.1. Polyglot**  
+
+Install using this [link](https://github.com/aboSamoor/polyglot/issues/91)
+
+    Step 1: $ git clone https://github.com/aboSamoor/polyglot.git
+    
+    Step 2: $ python setup.py install
+
+    Step 3: Downloaded and pip install
+            
+            $ pip install pycld2-0.31-cp36-cp36m-win_amd64.whl
+            
+            $ pip install PyICU-1.9.8-cp36-cp36m-win_amd64.whl
+            
+
+**2.2. Stanford POS tagger**
+    
+__Step 1__: Install JDK 1.8 using this [link](https://www.guru99.com/install-java.html)
+        
+     
+__Step 2__: Download Stanford CoreNLP from this [link](https://stanfordnlp.github.io/CoreNLP/index.html#download)
+
+        Step 2.1: Download and extract the Stanford CoreNLP
+        
+
+__Step 3__: Start service of Stanford CoreNLP
+        
+        Step 1: cd ~/Path where you extract the Stanford CoreNLP
+        
+        Step 2: Run the server using all jars in the current directory (e.g., the CoreNLP home directory)
+                
+                $ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+        
+__Step 4__: Setup Py-coreNLP
+    
+
+**2.3. Spacy POS tagger**
+    
+   __Step 1__: Documentation for Spacy is [here](https://spacy.io/usage/)
+    
+   __Step 2__: Run the installation commands
+    
+           $ sudo pip iinstall spacy
+           
+           $ sudo python3 -m spacy download en
+
+
 **Linux OS**
 
-
-**Mac-OS**
-
+**2.1. Polyglot**  
 
     Step 1: sudo apt-get update
     Step 2: sudo apt-get install python-pyicu
     Step 3: sudo pip install pycld2
     Step 4: sudo pip install PyICU
-    sudo pip install Morfessor
-    Step 5: sudo apt-get install python-numpy libicu-dev
-    Step 6: sudo pip install polyglot
+    Step 5: sudo pip install Morfessor
+    Step 6: sudo apt-get install python-numpy libicu-dev
+    Step 7: sudo pip install polyglot
+   
+**2.2. Stanford POS tagger**
+    
+ 
+__Step 1__: Install JDK 1.8
+        
+        Step 1.1: $ sudo mkdir /usr/lib/jvm
+        
+        Step 1.2: $ sudo tar xzvf jdk1.8.0_172.tar.gz -C /usr/lib/jvm
+        
+        Step 1.3: Set environment variable for java in .bashrc file
+        
+                  $ sudo vi ~/.bashrc or sudo gedit ~/.bashrc
+        
+        Step 1.4: Set path at the end of the bashrc file
+        
+                  JAVA_HOME=/usr/lib/jvm/jdk1.7.0_51
+                  PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+                  JRE_HOME=$HOME/bin:$JRE_HOME/bin
+                  export JAVA_HOME
+                  export JRE_HOME
+                  export PATH
 
-Stanford POS tagger
+     
+__Step 2__: Download Stanford CoreNLP from this [link](https://stanfordnlp.github.io/CoreNLP/index.html#download)
 
-    https://nlp.stanford.edu/software/tagger.html
-    https://stanfordnlp.github.io/CoreNLP/
-    https://github.com/smilli/py-corenlp
-    https://stanfordnlp.github.io/CoreNLP/corenlp-server.html#getting-started
+            Step 2.1: Download and extract the Stanford CoreNLP
+        
 
-Spacy POS tagger
+__Step 3__: Start service of Stanford CoreNLP
+        
+            Step 1: cd ~/Path where you extract the Stanford CoreNLP
+        
+            Step 2: Run the server using all jars in the current directory (e.g., the CoreNLP home directory)
+                
+                    $ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+        
+__Step 4__: Setup Py-coreNLP
+            
+            $ sudo pip install pycorenlp
+           
+    
 
-    https://spacy.io/usage/
-    sudo pip iinstall spacy
-    sudo python3 -m spacy download en
+**2.3. Spacy POS tagger**
+    
+   __Step 1__: Documentation for Spacy is [here](https://spacy.io/usage/)
+    
+   __Step 2__: Run the installation commands
+    
+               $ sudo pip iinstall spacy
+               
+               $ sudo python3 -m spacy download en
+        
+    
+**Mac-OS**
+
+**2.1. Polyglot**  
+
+    Step 1: sudo apt-get update
+    Step 2: sudo apt-get install python-pyicu
+    Step 3: sudo pip install pycld2
+    Step 4: sudo pip install PyICU
+    Step 5: sudo pip install Morfessor
+    Step 6: sudo apt-get install python-numpy libicu-dev
+    Step 7: sudo pip install polyglot
+   
+**2.2. Stanford POS tagger**
+    
+Setup Standford CoreNLP
+    
+__Step 1__: Install JDK 1.8 [using this steps](http://www.cs.dartmouth.edu/~scot/cs10/mac_install/mac_install.html)
+        
+   
+__Step 2__: Download Stanford CoreNLP from this [link](https://stanfordnlp.github.io/CoreNLP/index.html#download)
+
+        Step 2.1: Download and extract the Stanford CoreNLP
+        
+
+__Step 3__: Start service of Stanford CoreNLP
+        
+        Step 3.1: cd ~/Path where you extract the Stanford CoreNLP
+        
+        Step 3.2: Run the server using all jars in the current directory (e.g., the CoreNLP home directory)
+                
+                $ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+        
+__Step 4__: Setup Py-coreNLP
+
+        Step 4.1: $ sudo pip install pycorenlp
+    
+
+**2.3. Spacy POS tagger**
+    
+   __Step 1__: Documentation for Spacy is [here](https://spacy.io/usage/)
+    
+   __Step 2__: Run the installation commands
+    
+               $ sudo pip iinstall spacy
+               
+               $ sudo python3 -m spacy download en
+
 
 
 
 ### For section 3: 
 
 There are two dependencies are required.
----
-1. NLTK
 
-2. Scikit-Learn
+---
+
+3.1. NLTK
+
+3.2. Scikit-learn
+
+---
 
 
 **For Windows OS**
+
+**3.1 NLTK**
+
+
+
+**3.2 Scikit-learn**
 
 
 **For Linux OS**
 
 
+**3.1 NLTK**
+
+
+**3.2 Scikit-learn**
+
+
+
+
+
 **On Mac OS**
 
+**3.1 NLTK**
+
+**3.2 Scikit-learn**
 
 ---
 
