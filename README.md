@@ -71,6 +71,8 @@ There are main three sections here.
 
 * Scikit-learn
 
+* jupyter notebook
+
 
 ## Installation Instructions
 
@@ -106,7 +108,7 @@ There are three dependencies are required.
 
 ---
 
-#### Windows OS
+### Windows OS
 
 
 **2.1. Polyglot**  
@@ -155,8 +157,8 @@ __Step 4__: Setup Py-coreNLP
            
            $ sudo python3 -m spacy download en
 
-
-#### Linux OS
+---
+### Linux OS
 
 **2.1. Polyglot**  
 
@@ -219,9 +221,11 @@ __Step 4__: Setup Py-coreNLP
                $ sudo pip iinstall spacy
                
                $ sudo python3 -m spacy download en
-        
+
+
+---        
     
-####  Mac-OS
+###  Mac-OS
 
 **2.1. Polyglot**  
 
@@ -284,35 +288,86 @@ There are two dependencies are required.
 ---
 
 
-#### Windows OS
+### Windows OS
 
 **3.1 NLTK**
-
-
+      
+      Step 1: $ sudo pip install numpy scipy nltk
+      
+      Step 2: Download NLTK data
+              
+              $ python2 or python3
+              
+      Step 3: Inside python shell
+              
+              >>> import nltk
+              
+              >>> nltk.download()
 
 **3.2 Scikit-learn**
 
+      $ sudo pip install scikit-learn
+      
+ ---
 
-#### For Linux OS
+### For Linux OS
 
 
 **3.1 NLTK**
-
+      
+      Step 1: $ sudo pip install numpy scipy nltk
+      
+      Step 2: Download NLTK data
+              
+              $ python2 or python3
+              
+      Step 3: Inside python shell
+              
+              >>> import nltk
+              
+              >>> nltk.download()
 
 **3.2 Scikit-learn**
 
-
-
-
-
-#### On Mac OS
-
-**3.1 NLTK**
-
-**3.2 Scikit-learn**
+      $ sudo pip install scikit-learn
 
 ---
 
+### On Mac OS
+
+**3.1 NLTK**
+      
+      Step 1: $ sudo pip install numpy scipy nltk
+      
+      Step 2: Download NLTK data
+              
+              $ python2 or python3
+              
+      Step 3: Inside python shell
+              
+              >>> import nltk
+              
+              >>> nltk.download()
+
+**3.2 Scikit-learn**
+
+      $ sudo pip install scikit-learn
+
+---
+
+#### Install jupyter notebook
+
+* For installation you can refer [this link](http://jupyter.org/install)
+
+* In anaconda jupyter notebook is built-in given. 
+
+* You can install jupyter notebook by using following command
+  
+  `$ sudo pip install jupyter notebook`
+  
+* In order to start jupyter notebook execute the given command on cmd/terminal
+
+  `$ jupyter notebook`
 
 ## Usage
 
