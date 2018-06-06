@@ -57,8 +57,33 @@ There are main three sections here.
 
                 3.8 Generate POS tags for given sentence
        
+## Dependencies 
+
+* Python 2.7 or Python 3.3+
+
+* Polyglot
+
+* Spacy
+
+* Py-CoreNLP (uses Stanford CoreNLP)
+
+* NLTK
+
+* Scikit-Learn
+
 
 ## Installation Instructions
+
+### General instruction
+
+* Set up python package manager [pip](https://pip.pypa.io/en/stable/quickstart/)
+  
+  * [Install pip for Windows](https://pip.pypa.io/en/stable/installing/) or [Install conda for Windows](https://conda.io/docs/user-guide/install/windows.html)
+  
+  * [Install pip for Linux](https://github.com/jalajthanaki/NLPython/blob/master/ch1/installation_guide/NLTK%2BSetup.md) or [Install conda for Linux](https://conda.io/docs/user-guide/install/linux.html)
+  
+  * [Install pip for Mac-OS](https://gist.github.com/haircut/14705555d58432a5f01f9188006a04ed) or [Install conda for Mac-OS](https://conda.io/docs/user-guide/install/macos.html)
+
 
 ### For section 1:
 
@@ -68,6 +93,7 @@ There are main three sections here.
 
 There are three dependencies are required.
 ---
+
 1. Polyglot library
 
 2. Stanford POS tagger and Py-CoreNLP
@@ -75,6 +101,15 @@ There are three dependencies are required.
 3. Spacy POS tagger
 
 ---
+
+**Windows OS**
+
+
+**Linux OS**
+
+
+**Mac-OS**
+
 
     Step 1: sudo apt-get update
     Step 2: sudo apt-get install python-pyicu
@@ -106,6 +141,17 @@ There are two dependencies are required.
 1. NLTK
 
 2. Scikit-Learn
+
+
+**For Windows OS**
+
+
+**For Linux OS**
+
+
+**On Mac OS**
+
+
 ---
 
 
