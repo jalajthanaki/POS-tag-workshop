@@ -59,7 +59,7 @@ There are main three sections here.
        
 ## Dependencies 
 
-* Python 2.6+ or Python 3.3+
+* Python 3.3+
 
 * Polyglot
 
@@ -164,10 +164,10 @@ __Step 4__: Setup Py-coreNLP
 
     Step 1: sudo apt-get update
     Step 2: sudo apt-get install python-pyicu
-    Step 3: sudo pip install pycld2
-    Step 4: sudo pip install PyICU
-    Step 5: sudo pip install Morfessor
-    Step 6: sudo apt-get install python-numpy libicu-dev
+    Step 3: sudo pip install pycld2  
+    Step 4: sudo pip install Morfessor
+    Step 5: sudo apt-get install python-numpy libicu-dev
+    Step 6: sudo pip install PyICU
     Step 7: sudo pip install polyglot
    
 **2.2. Stanford POS tagger**
@@ -231,10 +231,10 @@ __Step 4__: Setup Py-coreNLP
 
     Step 1: sudo apt-get update
     Step 2: sudo apt-get install python-pyicu
-    Step 3: sudo pip install pycld2
-    Step 4: sudo pip install PyICU
-    Step 5: sudo pip install Morfessor
-    Step 6: sudo apt-get install python-numpy libicu-dev
+    Step 3: sudo pip install pycld2  
+    Step 4: sudo pip install Morfessor
+    Step 5: sudo apt-get install python-numpy libicu-dev
+    Step 6: sudo pip install PyICU
     Step 7: sudo pip install polyglot
    
 **2.2. Stanford POS tagger**
