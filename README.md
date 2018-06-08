@@ -32,10 +32,12 @@ There are main three sections here.
                2.2 Generating POS tags using Stanford CoreNLP 
        
                2.3 Generating POS tags using Spacy library
+               
+               2.4 Why do we need to develop our own POS tagger?
     
 ---    
 
-    Section 3. Build our own POS tagger form scratch
+    Section 3. Build our own statistical POS tagger form scratch
        
                3.1 Import dependencies
 
