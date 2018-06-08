@@ -383,3 +383,7 @@ There are two dependencies are required.
 
 See the Git-Pitch presentation using [this link](https://gitpitch.com/jalajthanaki/POS-tag-workshop/master?grs=github)
 
+
+## Special Thanks
+
+Thanks DataGiri/GreyAtom for hosting this event. 
