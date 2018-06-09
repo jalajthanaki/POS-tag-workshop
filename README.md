@@ -211,8 +211,11 @@ __Step 3__: Start service of Stanford CoreNLP
 __Step 4__: Setup Py-coreNLP
             
             $ sudo pip install pycorenlp
+          
            
-    
+__step_5__: Docker image (Instead of Step 1 to 4 above)
+
+            docker run -p 9000:9000 --rm -it motiz88/corenlp       
 
 **2.3. Spacy POS tagger**
     
